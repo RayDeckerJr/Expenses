@@ -1,5 +1,6 @@
 {
   "name": "reactwebapp",
+  "homepage": "http://raydeckerjr.dev/react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
