@@ -42,12 +42,21 @@ const App = () => {
 
     return (
         <div>
-            <div className= "expense-item">
-            <div className="expense-date__year"><p>Expense Organizer by Ray Decker v0.1.7</p></div>
-            </div>
+
 
             <NewExpense onAddExpense={addExpenseHandler}/>
             <Expenses items = {expenses} />
+
+
+
+            <div className= "expenses">
+                <div className="expense-footer" >
+                    <a href="http://www.RayDeckerJr.Dev">Return To RayDeckerJr.Dev</a>
+                    <p>
+                        Expense Organizer by Ray Decker Jr v0.1.7
+                    </p>
+                </div>
+            </div>
         </div>
     );
 }
