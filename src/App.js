@@ -30,10 +30,16 @@ const App = () => {
             date: new Date(2021, 5, 12),
         },
     ];
+    const addExpenseHandler = expense => {
+
+    };
 
     return (
         <div>
-            <NewExpense/>
+            <div className= "expense-item">
+            <div className="expense-date__year"><p>Expense Organizer by Ray Decker v0.0.1</p></div>
+            </div>
+            <NewExpense onAddExpense={addExpenseHandler}/>
             <Expenses items = {expenses} />
         </div>);
 }
