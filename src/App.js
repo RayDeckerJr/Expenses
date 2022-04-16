@@ -37,7 +37,7 @@ const App = () => {
     return (
         <div>
             <div className= "expense-item">
-            <div className="expense-date__year"><p>Expense Organizer by Ray Decker v0.0.1</p></div>
+            <div className="expense-date__year"><p>Expense Organizer by Ray Decker v0.1.5</p></div>
             </div>
             <NewExpense onAddExpense={addExpenseHandler}/>
             <Expenses items = {expenses} />
